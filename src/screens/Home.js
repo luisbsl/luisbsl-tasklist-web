@@ -9,7 +9,11 @@ import TaskEditModal from '../components/TaskEditModal'
 
 import TaskList from '../components/TaskList'
 
-const taskURL = 'https://luisbsl-tasklist-back.herokuapp.com/tasks'
+var taskURL = 'https://luisbsl-tasklist-back.herokuapp.com/tasks'
+
+if (process.env.NODE_ENV !== 'production') {
+  taskURL = 'http://localhost:8080/tasks'
+}
 
 class Home extends React.Component {
   constructor(props) {
@@ -48,6 +52,7 @@ class Home extends React.Component {
   }
 
   componentDidMount = () => {
+
     this.findAllTasks()
   }
 
@@ -87,7 +92,6 @@ class Home extends React.Component {
 
   verificarTeclaEnter = event => {
     if (event.which === 13 || event.keyCode === 13) {
-      console.log("Enter clicked")
       this.adicionarNotaTarefa()
     }
   }
