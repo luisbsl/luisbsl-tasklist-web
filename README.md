@@ -16,6 +16,8 @@ https://luisbsl-tasklist-back.herokuapp.com/tasks
 Primeiramente deve ser levantado o serviço de backend seguindo as instruções do mesmo
 ps: luisbsl-tasklist-back
 
+```yarn start-local```
+
 ### Hospedagem Heroku
 https://luisbsl-tasklist-web.herokuapp.com/
 
