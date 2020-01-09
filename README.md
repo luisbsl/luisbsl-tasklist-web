@@ -1,6 +1,8 @@
 # Sistema de Gestão de Tarefas
 
-Sistema desenvolvido em React servindo de frontend para consumo da API Rest em Spring Boot
+Sistema desenvolvido em React como frontend para consumo da API Rest em Spring Boot hospedado no Heroku
+
+https://luisbsl-tasklist-back.herokuapp.com/tasks
 
 ## Frontend
 ### Stack
