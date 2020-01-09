@@ -21,3 +21,8 @@ ps: luisbsl-tasklist-back
 ### Hospedagem Heroku
 https://luisbsl-tasklist-web.herokuapp.com/
 
+### Considerações
+Pontos a melhorar
+* Cobertura de testes com jest
+* Validação de componentes com Proptypes
+* Converter componente em Hooks para melhor performance
